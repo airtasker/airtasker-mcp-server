@@ -145,6 +145,14 @@ Ask these questions in sequence:
    - Garden clean up
    - Other
 2. **Garden size** — which best describes the area?
+
+   If the task location is in the **US**, use these options:
+   - Small (under 500 sq ft)
+   - Medium (500–1500 sq ft)
+   - Large (1500–3000 sq ft)
+   - Extra large (above 3000 sq ft)
+
+   Otherwise:
    - Small (under 50m²)
    - Medium (50m²–100m²)
    - Large (150m²–300m²)
