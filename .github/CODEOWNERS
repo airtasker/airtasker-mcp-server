@@ -1,0 +1,12 @@
+# This file describes the Code Owners of this repository
+# following a Airtasker'ized version of Github convention
+# see https://help.github.com/en/articles/about-code-owners for more details
+
+# This file has to be groomed by the repository committers, please remove yourself if you don't feel concerned
+
+# Note: Uncommented lines will auto-assign users to related PRs
+
+* @airtasker/seo
+
+# Require SRE to change the codeowners of the repository.
+/.github/CODEOWNERS @airtasker/sre
