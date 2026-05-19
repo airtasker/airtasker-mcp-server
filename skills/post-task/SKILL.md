@@ -26,13 +26,15 @@ receive. Help them be thorough.
 
 ## STEPS
 
+**Ask one question at a time throughout the entire flow. Wait for the user's
+answer before asking the next question. Never batch or combine questions.**
+
 ### 1. What and when
 
 If `$ARGUMENTS` was provided, present it back as a starting point and ask them
-to confirm or expand on it. Otherwise, ask:
-
-- What do they need done?
-- When do they need it? (flexible / by a certain date / on a specific date)
+to confirm or expand on it. Otherwise, ask what they need done. Once you have
+the description, ask when they need it (flexible / by a certain date / on a
+specific date) as a separate follow-up.
 
 Record the raw description — it will be shaped into a proper title and
 description later. Record the timing preference for `date_type` and
@@ -84,7 +86,8 @@ task description.
 
 #### Moving sub-flow
 
-Ask these questions in sequence:
+Ask **one question at a time**. Wait for the user's answer before asking the
+next question. Do not combine or batch questions.
 
 1. **Pick-up location** — which suburb/neighbourhood are they moving from?
 2. **Drop-off location** — which suburb/neighbourhood are they moving to?
@@ -114,7 +117,8 @@ Stairs: {None / At pickup / At drop-off / At both locations}
 
 #### Cleaning sub-flow
 
-Ask these questions in sequence:
+Ask **one question at a time**. Wait for the user's answer before asking the
+next question. Do not combine or batch questions.
 
 1. **Type of clean** — regular or end of lease?
 2. **Bedrooms** — how many bedrooms?
@@ -138,7 +142,8 @@ Equipment and supplies: {Cleaner to bring / User will provide}
 
 #### Gardening sub-flow
 
-Ask these questions in sequence:
+Ask **one question at a time**. Wait for the user's answer before asking the
+next question. Do not combine or batch questions.
 
 1. **Services needed** (multiple can be selected):
    - Lawn mowing
