@@ -51,6 +51,17 @@ Specifically:
 
 ### For Claude Code
 
+Install as a plugin (recommended):
+
 ```
-claude mcp add --transport http airtasker-mcp-dev https://mcp.airtasker.com/mcp
+/plugin marketplace add airtasker/airtasker-mcp-server
+/plugin install airtasker-mcp-server@airtasker
+```
+
+Then run `/mcp` to complete the OAuth login.
+
+Or add the MCP server manually:
+
+```
+claude mcp add --transport http airtasker https://mcp.airtasker.com/mcp
 ```
