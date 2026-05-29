@@ -161,7 +161,7 @@ next question. Do not combine or batch questions.
 
    Otherwise:
    - Small (under 50m²)
-   - Medium (50m²–100m²)
+   - Medium (50m²–150m²)
    - Large (150m²–300m²)
    - Extra large (above 300m²)
 3. **Green waste bin** — do they have one available?
