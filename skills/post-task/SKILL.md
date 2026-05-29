@@ -6,7 +6,7 @@ description: >
   someone on Airtasker. Prerequisites: Airtasker account, payment method configured,
   and MCP server authenticated at mcp.airtasker.com/mcp.
 model: sonnet
-context: fork
+context: inherit
 user-invocable: true
 allowed-tools:
   - mcp__airtasker_mcp_server__post_task
@@ -198,12 +198,7 @@ Before calling any tools, present a summary of everything collected:
 
 Ask the user to confirm or make any corrections.
 
-Once confirmed:
-
-1. Call `get_task_info` to check posting eligibility (`is_restricted`). If
-   restricted, inform the user and stop.
-
-2. Call `post_task` with:
+Once confirmed, call `post_task` with:
 
    | Field             | Value                                                                                        |
    | ----------------- | -------------------------------------------------------------------------------------------- |
@@ -215,8 +210,8 @@ Once confirmed:
    | `timeless_date`   | Required when `date_type` ≠ `"flexible"`                                                     |
    | `specified_times` | Include if the user mentioned a time of day preference                                       |
 
-3. Share the returned task URL with the user and let them know offers typically
-   arrive within minutes to hours — not immediately.
+After posting, share the returned task URL with the user and let them know offers typically
+arrive within minutes to hours — not immediately.
 
 ---
 
