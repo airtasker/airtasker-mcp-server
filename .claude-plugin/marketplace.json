@@ -1,0 +1,16 @@
+{
+  "name": "airtasker",
+  "owner": {
+    "name": "Airtasker"
+  },
+  "description": "Airtasker's official Claude Code plugins.",
+  "plugins": [
+    {
+      "name": "airtasker-mcp-server",
+      "source": "./",
+      "description": "Browse the Airtasker marketplace, post tasks, and accept offers through Airtasker's hosted MCP server.",
+      "homepage": "https://github.com/airtasker/airtasker-mcp-server",
+      "keywords": ["airtasker", "mcp", "marketplace", "tasks", "gig-economy"]
+    }
+  ]
+}

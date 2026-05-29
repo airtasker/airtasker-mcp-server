@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "airtasker-mcp-server",
+  "displayName": "Airtasker",
+  "version": "0.1.0",
+  "description": "Browse the Airtasker marketplace, post tasks, and accept offers through Airtasker's hosted MCP server.",
+  "author": {
+    "name": "Airtasker",
+    "url": "https://www.airtasker.com"
+  },
+  "homepage": "https://github.com/airtasker/airtasker-mcp-server",
+  "repository": "https://github.com/airtasker/airtasker-mcp-server",
+  "license": "Apache-2.0",
+  "keywords": ["airtasker", "mcp", "marketplace", "tasks", "gig-economy"]
+}
