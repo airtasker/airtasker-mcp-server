@@ -11,5 +11,6 @@
   "homepage": "https://github.com/airtasker/airtasker-mcp-server",
   "repository": "https://github.com/airtasker/airtasker-mcp-server",
   "license": "Apache-2.0",
-  "keywords": ["airtasker", "mcp", "marketplace", "tasks", "gig-economy"]
+  "keywords": ["airtasker", "mcp", "marketplace", "tasks", "gig-economy"],
+  "skills": "./skills/"
 }
