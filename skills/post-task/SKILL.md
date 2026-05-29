@@ -200,10 +200,7 @@ Ask the user to confirm or make any corrections.
 
 Once confirmed:
 
-1. Call `get_task_info` to check posting eligibility (`is_restricted`). If
-   restricted, inform the user and stop.
-
-2. Call `post_task` with:
+1. Call `post_task` with:
 
    | Field             | Value                                                                                        |
    | ----------------- | -------------------------------------------------------------------------------------------- |
@@ -215,8 +212,11 @@ Once confirmed:
    | `timeless_date`   | Required when `date_type` ≠ `"flexible"`                                                     |
    | `specified_times` | Include if the user mentioned a time of day preference                                       |
 
-3. Share the returned task URL with the user and let them know offers typically
-   arrive within minutes to hours — not immediately.
+2. If `post_task` returns a `posting_restricted` error, inform the user that
+   they are not eligible to post tasks at this time and stop.
+
+3. Otherwise, share the returned task URL with the user and let them know offers
+   typically arrive within minutes to hours — not immediately.
 
 ---
 
@@ -229,4 +229,3 @@ Once confirmed:
 - `price` must be a positive integer (whole dollars only).
 - `timeless_date` is required whenever `date_type` is `"on_date"` or
   `"before_date"`. Do not call `post_task` without it in those cases.
-- Do not skip the `get_task_info` eligibility check before posting.
