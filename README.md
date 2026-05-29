@@ -6,14 +6,23 @@ Let AI agents do things on Airtasker — browse and post tasks, view offers, man
 
 ## What you can do
 
+### Tools
+
 | Tool | What it does |
 |------|---|
-| `get_task_info` | Retrieve pre-posting information required before calling post_task  |
 | `browse_tasks` | Search the Airtasker marketplace |
 | `get_task` | Pull full task details |
 | `post_task` | Post a new task |
 | `get_my_tasks` | See your tasks |
 | `get_offers` | Check offers on your tasks |
+| `accept_offer` | Hire a tasker and escrow payment |
+| `get_profile` | Look up a public user profile |
+
+### Skills
+
+| Skill | What it does |
+|-------|---|
+| `post-task` | Guided conversation that collects job details, location, timing, and budget — then posts via `post_task`. |
 
 ## What you need
 
@@ -64,4 +73,14 @@ Or add the MCP server manually:
 
 ```
 claude mcp add --transport http airtasker https://mcp.airtasker.com/mcp
+```
+
+## How to use Airtasker Skills
+
+### `/airtasker:post-task`
+Guides you through posting a task on Airtasker — capturing job details, location, timing, and budget, then submitting via the Airtasker MCP server.
+
+```
+/airtasker:post-task
+/airtasker:post-task help moving a 2-bedroom apartment
 ```
