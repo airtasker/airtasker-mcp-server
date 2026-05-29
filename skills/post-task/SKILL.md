@@ -4,13 +4,12 @@ description: >
   to capture job details, location, timing, and budget, then submitting via the
   Airtasker MCP server. Use when asked to post a task, create a task, or hire
   someone on Airtasker. Prerequisites: Airtasker account, payment method configured,
-  and MCP server authenticated at mcp.dev.airtasker.com/mcp.
+  and MCP server authenticated at mcp.airtasker.com/mcp.
 model: sonnet
 context: fork
 user-invocable: true
 allowed-tools:
   - mcp__airtasker_mcp_server__post_task
-  - mcp__airtasker_mcp_server__get_task_info
 argument-hint: "[optional: brief task description]"
 ---
 
