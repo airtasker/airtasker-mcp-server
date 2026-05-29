@@ -64,7 +64,7 @@ Install as a plugin (recommended):
 
 ```
 /plugin marketplace add airtasker/airtasker-mcp-server
-/plugin install airtasker-mcp-server@airtasker
+/plugin install airtasker@airtasker
 ```
 
 Then run `/mcp` to complete the OAuth login.

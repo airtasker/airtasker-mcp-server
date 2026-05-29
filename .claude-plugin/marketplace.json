@@ -6,10 +6,11 @@
   "description": "Airtasker's official Claude Code plugins.",
   "plugins": [
     {
-      "name": "airtasker-mcp-server",
+      "name": "airtasker",
       "source": "./",
       "description": "Browse the Airtasker marketplace, post tasks, and accept offers through Airtasker's hosted MCP server.",
       "homepage": "https://github.com/airtasker/airtasker-mcp-server",
+      "category": "lifestyle",
       "keywords": ["airtasker", "mcp", "marketplace", "tasks", "gig-economy"]
     }
   ]
