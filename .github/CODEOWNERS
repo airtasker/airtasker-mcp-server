@@ -6,7 +6,7 @@
 
 # Note: Uncommented lines will auto-assign users to related PRs
 
-* @airtasker/seo
+* @airtasker/growth
 
 # Require SRE to change the codeowners of the repository.
 /.github/CODEOWNERS @airtasker/sre
