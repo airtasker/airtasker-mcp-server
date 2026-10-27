@@ -1,0 +1,17 @@
+{
+  "name": "airtasker",
+  "displayName": "Airtasker",
+  "version": "0.1.0",
+  "description": "Browse the Airtasker marketplace, post tasks, and accept offers through Airtasker's hosted MCP server.",
+  "author": {
+    "name": "Airtasker",
+    "url": "https://www.airtasker.com"
+  },
+  "homepage": "https://www.airtasker.com",
+  "repository": "https://github.com/airtasker/airtasker-mcp-server",
+  "license": "Apache-2.0",
+  "keywords": ["airtasker", "mcp", "marketplace", "tasks", "gig-economy"],
+  "logo": "images/airtasker-icon.svg",
+  "skills": "./skills/",
+  "mcpServers": "mcp.json"
+}
