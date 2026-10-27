@@ -75,6 +75,22 @@ Or add the MCP server manually:
 claude mcp add --transport http airtasker https://mcp.airtasker.com/mcp
 ```
 
+### For Cursor
+
+Install the Airtasker plugin from the Cursor Marketplace, or add the MCP server manually in `~/.cursor/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "airtasker": {
+      "url": "https://mcp.airtasker.com/mcp"
+    }
+  }
+}
+```
+
+Cursor opens the OAuth login the first time the server connects.
+
 ## How to use Airtasker Skills
 
 ### `/airtasker:post-task`

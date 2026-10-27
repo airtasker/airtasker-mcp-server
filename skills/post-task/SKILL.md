@@ -1,4 +1,5 @@
 ---
+name: post-task
 description: >
   Post a task on Airtasker by guiding the user through a structured conversation
   to capture job details, location, timing, and budget, then submitting via the
